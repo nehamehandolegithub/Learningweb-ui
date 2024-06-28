@@ -16,11 +16,11 @@ const Header = () => {
         
 
         <ul className='hidden md:flex gap-10 cursor-pointer text-white'>
-            <li>Home</li>
-            <li>Company</li>
-            <li>Resources</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li className='hover:text-black hover:font-bold'>Home</li>
+            <li className='hover:text-black hover:font-bold'>Company</li>
+            <li  className='hover:text-black hover:font-bold'>Resources</li>
+            <li  className='hover:text-black hover:font-bold'>About</li>
+            <li  className='hover:text-black hover:font-bold'>Contact</li>
         </ul>
 
         {/* for mobile responsive */}
